@@ -1,10 +1,15 @@
-body {
-  background-color: #d9dcd6;
-  box-sizing: border-box;
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Changes the color of the page's background */
+body {
+  background-color: #d9dcd6;
+}
+
+/* Applies styling to the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -18,10 +23,12 @@ h1 {
   font-size: 48px;
 }
 
+/* Changes the color of the S-E- and -O of the company name in the header */
 .seo {
   color: #d9dcd6;
 }
 
+/* Applies styling to the list of links in the header */
 .list {
   padding-top: 15px;
   margin-right: 20px;
@@ -41,6 +48,7 @@ a {
   text-decoration: none;
 }
 
+/* background image styling */
 .hero {
   height: 800px;
   width: 100%;
@@ -50,6 +58,20 @@ a {
   background-position: center;
 }
 
+/* This styles the content section */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* This styles h2s in content class */
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* The next three properties applies styling to the photos in the content section */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -60,12 +82,11 @@ a {
   margin-left: 25px;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+.mainPhotos {
+  max-height: 200px;
 }
 
+/* Provides styling for the aside section */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -103,17 +124,6 @@ h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
-}
-
-/* This sizes the photos in the section */
-.mainPhotos {
-  max-height: 200px;
-}
-
-/* This styles h2s in content class */
-.content h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
